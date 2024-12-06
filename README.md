@@ -64,40 +64,6 @@ Copy code
 npm run dev
 The frontend server will run on http://localhost:5173/.
 
-API Endpoints
-GET /api/tasks
-Description: Retrieve all tasks
-
-DELETE /api/tasks/:id
-Description: Delete a task by ID
-
-Response: A confirmation message if the task is successfully deleted.
-
-PUT /api/tasks/:id
-Description: Update a task's status
-
-Request Body:
-
-json
-Copy code
-{
-  "status": "Completed"
-}
-Response: The updated task object.
-
-POST /api/tasks
-Description: Create a new task
-
-Request Body:
-
-json
-Copy code
-{
-  "title": "New Task",
-  "description": "Description of the new task",
-  "status": "Pending"
-}
-Response: The newly created task object.
 
 Frontend Setup
 The frontend is built using React.js and uses Tailwind CSS for styling. The frontend interacts with the backend via the API to perform CRUD operations (Create, Read, Update, Delete).
