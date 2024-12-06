@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
-function TaskList() {
+function TaskList() 
+    {
     const [tasks, setTasks] = useState([]);
 
     useEffect(() => {
@@ -8,6 +9,7 @@ function TaskList() {
             const response = await fetch('http://localhost:5000/api/tasks');
             const data = await response.json();
             setTasks(data);
+            fetchTasks(); 
         };
         fetchTasks();
     }, []);
