@@ -1,4 +1,4 @@
-                                                                                          Task Management App
+                                                              Task Management App
 This is a simple task management application built using React for the frontend and Express for the backend. It allows users to view, create, mark as complete, and delete tasks. The tasks are stored in a MongoDB database.
 
 Table of Contents
