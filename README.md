@@ -1,7 +1,7 @@
 Task Management App
 This is a simple task management application built using React for the frontend and Express for the backend. It allows users to view, create, mark as complete, and delete tasks. The tasks are stored in a MongoDB database.
 
-Table of Contents
+Table of Contents:
 Technologies Used
 Installation Instructions
 API Endpoints
@@ -22,7 +22,8 @@ Clone this repo to your local machine using:
 
 bash
 Copy code
-git clone https://github.com/yourusername/task-management-app.git
+git clone https://github.com/MoeezAli16/Session-09-Rest-Full-Api.git
+
 2. Install Dependencies for Backend
 Navigate to the backend directory:
 
@@ -34,6 +35,7 @@ Install the backend dependencies:
 bash
 Copy code
 npm install
+
 3. Install Dependencies for Frontend
 Navigate to the frontend directory:
 
